@@ -6,7 +6,7 @@ const Dashboard = defineAsyncComponent(()=>{
   return new Promise((resolve) => {
       setTimeout(() => {
         resolve(import("./views/Dashboard.vue"))
-      }, 3000)
+      }, 6000)
   })
 })
 
@@ -14,11 +14,9 @@ const Dashboard = defineAsyncComponent(()=>{
 
 <template>
   <Suspense>
-    <template #default>
       <Dashboard/>
-    </template>
     <template #fallback>
-      <SplashScreen class="splash-hide"/>
+        <SplashScreen/>
     </template>
   </Suspense>
 </template>
