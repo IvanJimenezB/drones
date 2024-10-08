@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink } from 'vue-router'
 import { Typed } from "@duskmoon/vue3-typed-js";
 import type { TypedOptions } from "@duskmoon/vue3-typed-js";
 
@@ -79,11 +79,10 @@ const options: TypedOptions = {
                         </svg>
                     </button></RouterLink>
 
-
             </div>
             <div class="w-full lg:w-5/12">
                 <img id="imgDronDashboard"  class="md:w-[650px] -right-20 top-40 opacity-80"
-                src="https://i.pinimg.com/originals/bc/f3/a3/bcf3a371b9303c27752e1109e96a2fe6.gif" alt="">
+                src="@/assets/images/FirstDron.gif" alt="">
             </div>
         </div>
     </div>

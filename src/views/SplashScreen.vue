@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Dashboard from "./Dashboard.vue"
+import Welcome from "./WelcomeView.vue"
 import { Typed } from "@duskmoon/vue3-typed-js";
 import type { TypedOptions } from "@duskmoon/vue3-typed-js";
 
@@ -10,16 +10,17 @@ const options: TypedOptions = {
 };
 </script>
 <template>
-    <div class="w-full h-[100%] grid place-content-center absolute  pb-[100px]" >
-        <img src="https://droneschoolindia.com/static/media/droneVector.c6429324.gif" class="justify-self-center" width="300" alt="" id="dronFirst">
-        <!-- <h1>Hola mundo que tal </h1> -->
-        <br>
-        <br>
-        <Typed :options="options" class="flex text-4xl" >
-            <h1 class="typing text-5xl text-center font-sans font-bold tracking-widest h-full"></h1>
-        </Typed>
+    <div>
+        <div class="w-full h-[100%] grid place-content-center absolute pb-[100px]" >
+            <img src="@/assets/images/DronSplashScreen.gif" class="justify-self-center" width="300" alt="" id="dronFirst">
+            <br>
+            <br>
+            <Typed :options="options" class="flex text-4xl" >
+                <h1 class="typing text-5xl text-center font-sans font-bold tracking-widest h-full"></h1>
+            </Typed>
+        </div>
+        <Welcome transition-style="in:wipe:down" class="absolute"/>
     </div>
-    <Dashboard transition-style="in:wipe:down" class="absolute"/>
 </template>
 
 <style scoped>
