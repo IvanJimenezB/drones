@@ -1,0 +1,1 @@
+const s="/drones/assets/motor-42ldyN6y.webp",a="/drones/assets/controlador-xg2MxmuK.jpg",o="/drones/assets/bateria-CSlRolmr.webp",e="/drones/assets/camara-DEEerHRa.webp",r="/drones/assets/gimbal-DiYACEKl.png",t="/drones/assets/sensor-DBNdkEwo.jpg";export{e as a,o as b,a as c,r as g,s as m,t as s};
