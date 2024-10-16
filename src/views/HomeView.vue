@@ -33,14 +33,19 @@ const classActive = " bg-gray-600";
                     <span>Tipos</span> 
                     <img src="https://cdni.iconscout.com/illustration/premium/thumb/entrega-dron-4985878-4148142.png?f=webp" alt="" width="90" class="mx-auto">
                 </RouterLink>
-                <RouterLink  :class="[route.name == 'partes' ? classButton + classActive : classButton]" to="/partes">
+                <!-- <RouterLink  :class="[route.name == 'partes' ? classButton + classActive : classButton]" to="/partes">
                     <span>Partes</span>
                     <img src="@/assets/images/partes.png" width="80" class="mx-auto " alt="">
                 </RouterLink>
-                <RouterLink  :class="[route.name == 'alcance' ? classButton + classActive : classButton]" to="/alcance">
-                    <span>Alcance</span>
-                    <img src="@/assets/images/alcance.png" width="60" class="mx-auto" alt="">
+                -->
+                <RouterLink  :class="[route.name == 'dron' ? classButton + classActive : classButton]" to="/dron">
+                    <span>DRON K911 MAX</span>
+                    <img src="@/assets/images/dronk911.png" width="100" class="mx-auto" alt="">
                 </RouterLink>
+                <RouterLink  :class="[route.name == 'caracteristicas' ? classButton + classActive : classButton]" to="/caracteristicas">
+                    <span>Caracteristicas</span>
+                    <img src="@/assets/images/alcance.png" width="60" class="mx-auto" alt="">
+                </RouterLink> 
                 <RouterLink  :class="[route.name == 'evolucion' ? classButton + classActive : classButton]" to="/evolucion">
                     <span>Evolucion</span>
                     <img src="@/assets/images/evolucion.png" width="60" class="mx-auto imgEvolution" alt="">

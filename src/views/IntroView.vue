@@ -9,10 +9,8 @@
                 <h2 class="text-3xl font-bold mb-6 transition duration-500 ease-in-out transform hover:scale-105">
                     ¿Qué es un dron?
                 </h2>
-                <p class="text-lg leading-relaxed mb-6 opacity-0 animate-fade-in">
-                    Un <strong>dron</strong>, o vehículo aéreo no tripulado (VANT), es un aparato volador que se
-                    controla de
-                    forma remota o vuela de manera autónoma gracias a un software de navegación.
+                <p class="text-lg leading-relaxed mb-6 opacity-0 animate-fade-in text-justify">
+                    Un <strong>dron</strong> o vehículo aéreo no tripulado (VANT) es una aeronave que vuela sin tripulación y es operada remotamente o de manera autónoma. Estos vehículos pueden ser propulsados por motores de explosión, eléctricos o de reacción y tienen diversas formas y tamaños. Los drones pueden ser controlados desde una ubicación remota o seguir planes de vuelo preprogramados. Aunque inicialmente se usaron en aplicaciones militares, hoy en día tienen usos civiles y comerciales. No se consideran drones a los misiles de crucero ni las aeronaves radiocontroladas, ya que no son reutilizables o autónomas.
                 </p>
 
                 <h3
