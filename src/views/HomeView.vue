@@ -24,7 +24,7 @@ const classActive = " bg-gray-600";
     <div class="absolute top-0 w-full h-[100vh] bg-[#0f172a] flex" transition-style="in:wipe:right">
         <div class="w-2/12 bg-white bg-opacity-10 flex items-center">
             <nav
-                class="w-full text-white text-lg font-extrabold tracking-widest grid grid-rows-1 gap-12 font-sans uppercase justify-center">
+                class="w-full text-white text-lg font-extrabold tracking-widest grid grid-rows-1 gap-8 font-sans uppercase justify-center">
                 <RouterLink :class="[route.name == 'pilotear' ? classButton + classActive : classButton]" to="/pilotear">
                     <span>Pilotear</span> 
                     <img class="mx-auto" src="@/assets/images/control.png" alt="" width="60">
@@ -49,6 +49,10 @@ const classActive = " bg-gray-600";
                 <RouterLink  :class="[route.name == 'evolucion' ? classButton + classActive : classButton]" to="/evolucion">
                     <span>Evolucion</span>
                     <img src="@/assets/images/evolucion.png" width="60" class="mx-auto imgEvolution" alt="">
+                </RouterLink>
+                <RouterLink  :class="[route.name == 'resultado' ? classButton + classActive : classButton]" to="/resultado">
+                    <span>Puntos ciegos</span>
+                    <img src="@/assets/images/buscar.png" width="60" class="mx-auto resulttado" alt="">
                 </RouterLink>
             </nav>
         </div>

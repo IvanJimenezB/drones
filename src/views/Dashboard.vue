@@ -6,7 +6,7 @@ import { defineAsyncComponent} from "vue";
 const WelcomeView = defineAsyncComponent(()=>{
   return new Promise((resolve) => {
       setTimeout(() => {
-        resolve(import("./WelcomeView.vue"))
+        resolve(import('./WelcomeView.vue'))
       }, 6000)
   })
 })
